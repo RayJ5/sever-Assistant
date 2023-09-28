@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.AuthenticationContainer {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#keyInput {
+    width: 20vw;
+    height: 5vh;
+
+    outline: none;
+
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    width: 30vw;
+    height: 5vh;
+    text-align: center;
+}
